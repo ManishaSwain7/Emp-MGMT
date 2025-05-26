@@ -1,0 +1,5 @@
+com\copilotw\repositories\EmployeeRepository.class
+com\copilotw\models\Employee.class
+com\copilotw\CopilotWApplication.class
+com\copilotw\services\EmployeeService.class
+com\copilotw\controllers\EmployeeController.class
