@@ -5,7 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
+//Employee class representing a staff member in the system
 @Entity
 @Table(name = "staff")
 public class Employee {
