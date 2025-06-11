@@ -1,6 +1,6 @@
-D:\OneDrive - Coforge Limited\Desktop\TRAINING-COPILOT\CopilotW\src\main\java\com\copilotw\controllers\DeptController.java
-D:\OneDrive - Coforge Limited\Desktop\TRAINING-COPILOT\CopilotW\src\main\java\com\copilotw\models\Employee.java
-D:\OneDrive - Coforge Limited\Desktop\TRAINING-COPILOT\CopilotW\src\main\java\com\copilotw\services\EmployeeService.java
-D:\OneDrive - Coforge Limited\Desktop\TRAINING-COPILOT\CopilotW\src\main\java\com\copilotw\controllers\EmployeeController.java
-D:\OneDrive - Coforge Limited\Desktop\TRAINING-COPILOT\CopilotW\src\main\java\com\copilotw\CopilotWApplication.java
-D:\OneDrive - Coforge Limited\Desktop\TRAINING-COPILOT\CopilotW\src\main\java\com\copilotw\repositories\EmployeeRepository.java
+/workspaces/Emp-MGMT/src/main/java/com/copilotw/controllers/EmployeeController.java
+/workspaces/Emp-MGMT/src/main/java/com/copilotw/CopilotWApplication.java
+/workspaces/Emp-MGMT/src/main/java/com/copilotw/controllers/DeptController.java
+/workspaces/Emp-MGMT/src/main/java/com/copilotw/services/EmployeeService.java
+/workspaces/Emp-MGMT/src/main/java/com/copilotw/models/Employee.java
+/workspaces/Emp-MGMT/src/main/java/com/copilotw/repositories/EmployeeRepository.java
