@@ -15,7 +15,7 @@ A Java Spring Boot application for managing employees and departments. This proj
 ### Prerequisites
 - Java 17+
 - Maven 3.9.9+
-- (Optional) Docker
+
 
 ### Build and Run Locally
 ```sh
