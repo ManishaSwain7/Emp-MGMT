@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wooden Tic Tac Toe</title>
+    <link rel="stylesheet" href="game/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Home Screen -->
+        <div id="home-screen" class="screen active">
+            <div class="title">
+                <h1>Wooden Tic Tac Toe</h1>
+                <p>Choose your game mode</p>
+            </div>
+            <div class="mode-buttons">
+                <button class="wooden-button" onclick="selectMode('multiplayer')">
+                    <span>Multiplayer</span>
+                </button>
+                <button class="wooden-button" onclick="selectMode('computer')">
+                    <span>Play with Computer</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Symbol Selection Screen -->
+        <div id="symbol-screen" class="screen">
+            <div class="title">
+                <h2>Choose Your Symbol</h2>
+                <p>The symbol you choose goes first</p>
+            </div>
+            <div class="symbol-buttons">
+                <button class="wooden-button symbol-btn" onclick="selectSymbol('X')">
+                    <span class="symbol">X</span>
+                </button>
+                <button class="wooden-button symbol-btn" onclick="selectSymbol('O')">
+                    <span class="symbol">O</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <div class="turn-indicator">
+                    <h2 id="turn-text">X's Turn</h2>
+                </div>
+                <div class="score-board">
+                    <div class="score-item">
+                        <span class="score-label">X</span>
+                        <span class="score-value" id="score-x">0</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">O</span>
+                        <span class="score-value" id="score-o">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-board" id="game-board">
+                <div class="board-cell" data-index="0"></div>
+                <div class="board-cell" data-index="1"></div>
+                <div class="board-cell" data-index="2"></div>
+                <div class="board-cell" data-index="3"></div>
+                <div class="board-cell" data-index="4"></div>
+                <div class="board-cell" data-index="5"></div>
+                <div class="board-cell" data-index="6"></div>
+                <div class="board-cell" data-index="7"></div>
+                <div class="board-cell" data-index="8"></div>
+            </div>
+
+            <div class="game-actions">
+                <button class="wooden-button" onclick="goHome()">
+                    <span>Home</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Win/Tie Popup -->
+        <div id="game-popup" class="popup-overlay">
+            <div class="popup-content">
+                <div class="popup-header">
+                    <h2 id="popup-title">Game Over!</h2>
+                    <p id="popup-message">Result message</p>
+                </div>
+                <div class="popup-actions">
+                    <button class="wooden-button" onclick="replayGame()">
+                        <span>Replay</span>
+                    </button>
+                    <button class="wooden-button" onclick="goHome()">
+                        <span>Home</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Confetti Canvas -->
+        <canvas id="confetti-canvas"></canvas>
+    </div>
+
+    <script src="game/script.js"></script>
+</body>
+</html>
