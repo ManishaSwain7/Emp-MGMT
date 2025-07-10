@@ -4,3 +4,4 @@ com/copilotw/repositories/EmployeeRepository.class
 com/copilotw/models/Employee.class
 com/copilotw/CopilotWApplication.class
 com/copilotw/controllers/DeptController.class
+com/copilotw/controllers/GameController.class

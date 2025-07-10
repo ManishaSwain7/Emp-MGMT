@@ -2,5 +2,6 @@
 /home/runner/work/Emp-MGMT/Emp-MGMT/src/main/java/com/copilotw/controllers/DeptController.java
 /home/runner/work/Emp-MGMT/Emp-MGMT/src/main/java/com/copilotw/repositories/EmployeeRepository.java
 /home/runner/work/Emp-MGMT/Emp-MGMT/src/main/java/com/copilotw/services/EmployeeService.java
+/home/runner/work/Emp-MGMT/Emp-MGMT/src/main/java/com/copilotw/controllers/GameController.java
 /home/runner/work/Emp-MGMT/Emp-MGMT/src/main/java/com/copilotw/controllers/EmployeeController.java
 /home/runner/work/Emp-MGMT/Emp-MGMT/src/main/java/com/copilotw/CopilotWApplication.java
